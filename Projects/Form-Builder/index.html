@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="icon" type="image/x-icon" href="./fav.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Form Builder</h2>
+            <div class="form-controls">
+                <h4>Select field Type</h4>
+                <select id="fieldType">
+                    <option value="">Select Field Type</option>
+                    <option value="text">Text Input</option>
+                    <option value="checkbox">Checkbox</option>
+                    <option value="radio">Radio Button</option>
+                </select>
+                <h4>Select field <Label></Label></h4>
+                <input type="text" id="fieldLabel" placeholder="Field Label" />
+                <br>
+                <button id="addField">Add Field</button>
+            </div>
+        </div>
+
+        <div class="preview right">
+            <h2>Preview</h2>
+            <div id="formPreview"></div>
+            <h2>Generated Code</h2>
+            <pre id="codePreview"></pre>
+            <button id="copyCode">Copy Code</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

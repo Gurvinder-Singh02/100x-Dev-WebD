@@ -1,0 +1,234 @@
+body {
+    font-family: 'Poppins';
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+
+
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    object-fit: cover;
+    height: 900px;
+}
+
+.hero {
+    margin-top: 70px;
+}
+
+.hero img {
+    object-fit: cover;
+}
+
+
+.search {
+    width: 40%;
+    background-color: #f5f5f5;
+    padding: 8px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    height: 45px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search input,
+.search button,
+.search select {
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    color: #333;
+    font-size: medium;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.search input {
+    width: 25%;
+    padding: 5px;
+}
+
+.search select {
+    width: 50%;
+    padding: 5px;
+}
+
+.search button {
+    width: 15%;
+    background-color: #0073e6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.search button img {
+    width: 18px;
+    transition: transform 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #005bb5;
+}
+
+.search button:hover img {
+    transform: rotate(90deg);
+}
+
+.search input:focus,
+.search select:focus,
+.search button:focus {
+    outline: none;
+    border-color: #0073e6;
+}
+
+.search select option {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.card-container {
+
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 308px;
+    background-color: #fff;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top {
+    font-family: 'peste Trial';
+    font-size: 21px;
+}
+
+.top img {
+    width: 71px;
+}
+
+.middle {
+    background-color: #21386E;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.line1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 30px;
+    margin: 0;
+    color: #fff;
+    line-height: 0px;
+}
+
+.last {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box {
+    background-color: #FFCB05;
+    width: 50%;
+    height: 140px;
+    border-radius: 25px;
+    padding: 0 0 0 30px;
+    padding-top: 10px;
+}
+
+.omni {
+    position: absolute;
+    right: -45px;
+    bottom: -25px;
+}
+
+h3 {
+    font-weight: 700 !important;
+    line-height: 0px;
+    letter-spacing: -0.5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #777;
+    padding: 20px 0;
+    margin-top: 30px;
+
+}
+
+.footer, .footer p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #777;
+}

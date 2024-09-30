@@ -1,0 +1,41 @@
+body {
+    font-family: poppins;
+    background-color: slateblue;
+}
+
+main {
+    height: 97vh;
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+}
+
+.form {
+    background-color: white;
+    width: 50%;
+    border: 5px solid #ccc;
+    box-shadow: 5px 5px 10px #00000033;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+button{
+    background-color: slateblue ;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100px;
+
+    margin-top: 20px;
+}
+
+.reload {
+    display: none;
+}
